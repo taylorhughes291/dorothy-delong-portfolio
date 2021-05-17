@@ -5,27 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <img src="/assets/Dorothy.png" alt="dorothy logo"/>
-            <img src="/assets/Logo.png" alt="logo"/>
-            <img src="/assets/DeLong.png" alt="delong logo"/>
-            <ul>
-                <li>ABOUT</li>
-                <li>PORTFOLIO</li>
-                <li>CONTACT</li>
-            </ul>
-        </nav>
+        <div class="header-cont">
+            <div class="logo-cont">
+                <img class="name-logo" src="/assets/Dorothy.png" alt="dorothy logo"/>
+                <img id="logo" src="/assets/Logo.png" alt="logo"/>
+                <img class="name-logo" src="/assets/DeLong.png" alt="delong logo"/>
+            </div>
+            <nav>
+                <ul>
+                    <li>ABOUT</li>
+                    <li>PORTFOLIO</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="about">
             <h2>“I capture the realness behind feminism, no filter.”</h2>
-            <img src="/assets/Headshot.png" />
-            <h3>ARTIST STATEMENT</h3>
-            <p>My work focuses on candid photographs taken on location at events for women’s rights, places where women are owning their space, and fleeting encounters on the streets. My work engulfs the viewer in real moments of strength, vulnerability, and solidarity.</p>
+            <div class="about-sub-cont">
+                <img src="/assets/Headshot.png" />
+                <div class="artist-statement-cont">
+                    <h3>ARTIST STATEMENT</h3>
+                    <p>My work focuses on candid photographs taken on location at events for women’s rights, places where women are owning their space, and fleeting encounters on the streets. My work engulfs the viewer in real moments of strength, vulnerability, and solidarity.</p>
+                </div>
+            </div>
         </section>
         <section class="portfolio">
             <h3>PORTFOLIO</h3>

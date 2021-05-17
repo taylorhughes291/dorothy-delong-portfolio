@@ -1,9 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
 body {
     background: black;
     color: white;
+    text-align: center;
 }
 
-nav {
+header {
     background: pink;
-    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ~~~~~~~ LAYOUT ~~~~~~~ */
+
+/* HEADER */
+div.header-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1215px;
+}
+
+header div.logo-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 26px;
+    width: 100%
+}
+
+header img#logo {
+    max-width: 20%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+
+}
+
+header img.name-logo {
+    max-width: 40%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+header nav {
+    margin: 26px 0;
+    width: 66%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul li {
+    text-align: center;
+    position: relative;
+}
+
+/* ~~~~~~~~~~~ ABOUT ~~~~~~~~~~~ */
+main section.about {
+    margin: 198px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.about h2 {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-style: bold;
+    max-width: 764px;
+    margin: 0 0 100px;
+}
+
+main section.about div.about-sub-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+}
+
+main section.about div.artist-statement-cont {
+    padding: 0 0 0 150px;
+    text-align: left;
+}
+
+main section.about div.artist-statement-cont h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+main section.about div.artist-statement-cont p {
+    max-width: 568px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
 }
