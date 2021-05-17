@@ -9,6 +9,10 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+
 </head>
 <body>
     <header>
@@ -20,15 +24,15 @@
             </div>
             <nav>
                 <ul>
-                    <li>ABOUT</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTACT</li>
+                    <li><a href=#about>ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="about">
+        <section id="about">
             <h2>“I capture the realness behind feminism, no filter.”</h2>
             <div class="about-sub-cont">
                 <img src="/assets/Headshot.png" />
@@ -38,7 +42,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section id="portfolio">
             <h3>PORTFOLIO</h3>
             <div class="portfolio-images">
                 <img src="/assets/Flag_thumb.png" alt="" />
@@ -49,7 +53,7 @@
                 <img src="/assets/metoo_thumb.png" alt="" />
             </div>
         </section>
-        <section class="contact">
+        <section id="contact">
             <h3>CONTACT</h3>
             <div class="contact-content">
                 <div class="contact-info">
@@ -57,23 +61,31 @@
                     <p>Email: dorothy@dorothydelong.me</p>
                     <p>(310) 555- 5555</p>
                     <p>Based in Los Angeles, CA</p>
-                    <button type="button">EMAIL ME</button>
+                    <a href="https://www.gmail.com" target="_blank"><button type="button">EMAIL ME</button></a>
                 </div>
                 <div class="socials">
                     <h4>Socials</h4>
                     <div class="icon-cont-cont">
-                        <div class="icon-cont">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <div class="icon-cont">
                             <img src="/assets/facebook-f.png" alt="" />
-                        </div>
-                        <div class="icon-cont">
-                            <img src="/assets/twitter.png" alt="" />
-                        </div>
-                        <div class="icon-cont">
-                            <img src="/assets/instagram.png" alt="" />
-                        </div>
-                        <div class="icon-cont">
-                            <img src="/assets/flickr.png" alt="" />
-                        </div>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/?lang=en" target="_blank">
+                            <div class="icon-cont">
+                                <img src="/assets/twitter.png" alt="" />
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <div class="icon-cont">
+                                <img src="/assets/instagram.png" alt="" />
+                            </div>
+                        </a>
+                        <a href="https://www.flickr.com/" target="_blank">
+                            <div class="icon-cont">
+                                <img src="/assets/flickr.png" alt="" />
+                            </div>
+                        </a>
                     </div>
                 </div>
         </div>
