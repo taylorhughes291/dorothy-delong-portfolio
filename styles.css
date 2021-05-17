@@ -13,6 +13,16 @@ header {
     justify-content: center;
 }
 
+section {
+    margin: 198px 0 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* ~~~~~~~ LAYOUT ~~~~~~~ */
 
 /* HEADER */
@@ -68,7 +78,6 @@ header nav ul li {
 
 /* ~~~~~~~~~~~ ABOUT ~~~~~~~~~~~ */
 main section.about {
-    margin: 198px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,4 +116,110 @@ main section.about div.artist-statement-cont p {
     max-width: 568px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
+}
+
+/* PORTFOLIO */
+
+main section.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 72px;
+    margin: 0 0 75px;
+}
+
+main section.portfolio div.portfolio-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    justify-content: stretch;
+    max-width: 1215px;
+    justify-items: stretch;
+}
+
+main section.portfolio div.portfolio-images img {
+    max-width: 583px;
+    margin: 10px 10px;
+    max-height: 319px;
+    width: auto;
+    height: auto;
+}
+
+main section.portfolio div.portfolio-images img:nth-of-type(4) {
+    width: 100%;
+    margin: 10px 0 10px 5px;
+    max-width: 598px;
+}
+
+/* Contact */
+main section.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1215px;
+    width: 100%;
+}
+
+main section.contact div.contact-content {
+    display: flex;
+    justify-content: center;
+}
+
+main section.contact div.socials {
+    padding: 0 0 0 200px;
+}
+
+main section.contact div.socials div.icon-cont-cont {
+    display: flex;
+    
+}
+
+main section.contact div.socials div.icon-cont {
+    display: flex;
+    width: 78px;
+    justify-content: center;
+    padding-right: 10px;
+    align-items: center;
+}
+
+main section.contact div {
+    text-align: left;
+}
+
+main section.contact div.contact-info {
+    padding: 0 40px 0 0;
+}
+
+main section.contact  h4 {
+    font-size: 48px;
+    font-family: font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin: 0 0 20px;
+}
+
+main section.contact div.contact-info p {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main section.contact div.contact-info button {
+    width: 275px;
+    height: 80px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 54px;
+    margin: 20px 0 60px;
+}
+
+/* FOOTER  */
+
+footer {
+    height: 85px;
+    background-color: pink;
 }
